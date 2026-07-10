@@ -63,11 +63,11 @@ CMAKE_BINARY_DIR = /Users/bikash_malla/Documents/opencv_learning/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/day4.dir/all
+all: CMakeFiles/Mini.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
-codegen: CMakeFiles/day4.dir/codegen
+codegen: CMakeFiles/Mini.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -75,40 +75,40 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/day4.dir/clean
+clean: CMakeFiles/Mini.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/day4.dir
+# Target rules for target CMakeFiles/Mini.dir
 
 # All Build rule for target.
-CMakeFiles/day4.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/day4.dir/build.make CMakeFiles/day4.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/day4.dir/build.make CMakeFiles/day4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/bikash_malla/Documents/opencv_learning/build/CMakeFiles --progress-num=1,2 "Built target day4"
-.PHONY : CMakeFiles/day4.dir/all
+CMakeFiles/Mini.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mini.dir/build.make CMakeFiles/Mini.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mini.dir/build.make CMakeFiles/Mini.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/bikash_malla/Documents/opencv_learning/build/CMakeFiles --progress-num=1,2 "Built target Mini"
+.PHONY : CMakeFiles/Mini.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/day4.dir/rule: cmake_check_build_system
+CMakeFiles/Mini.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bikash_malla/Documents/opencv_learning/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/day4.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Mini.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bikash_malla/Documents/opencv_learning/build/CMakeFiles 0
-.PHONY : CMakeFiles/day4.dir/rule
+.PHONY : CMakeFiles/Mini.dir/rule
 
 # Convenience name for target.
-day4: CMakeFiles/day4.dir/rule
-.PHONY : day4
+Mini: CMakeFiles/Mini.dir/rule
+.PHONY : Mini
 
 # codegen rule for target.
-CMakeFiles/day4.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/day4.dir/build.make CMakeFiles/day4.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/bikash_malla/Documents/opencv_learning/build/CMakeFiles --progress-num=1,2 "Finished codegen for target day4"
-.PHONY : CMakeFiles/day4.dir/codegen
+CMakeFiles/Mini.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mini.dir/build.make CMakeFiles/Mini.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/bikash_malla/Documents/opencv_learning/build/CMakeFiles --progress-num=1,2 "Finished codegen for target Mini"
+.PHONY : CMakeFiles/Mini.dir/codegen
 
 # clean rule for target.
-CMakeFiles/day4.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/day4.dir/build.make CMakeFiles/day4.dir/clean
-.PHONY : CMakeFiles/day4.dir/clean
+CMakeFiles/Mini.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mini.dir/build.make CMakeFiles/Mini.dir/clean
+.PHONY : CMakeFiles/Mini.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

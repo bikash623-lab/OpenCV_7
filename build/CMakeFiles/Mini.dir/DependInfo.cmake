@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/bikash_malla/Documents/opencv_learning/day3_colors.cpp" "CMakeFiles/day3.dir/day3_colors.cpp.o" "gcc" "CMakeFiles/day3.dir/day3_colors.cpp.o.d"
+  "/Users/bikash_malla/Documents/opencv_learning/Mini_project.cpp" "CMakeFiles/Mini.dir/Mini_project.cpp.o" "gcc" "CMakeFiles/Mini.dir/Mini_project.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

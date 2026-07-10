@@ -117,41 +117,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named day4
+# Target rules for targets named Mini
 
 # Build rule for target.
-day4: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 day4
-.PHONY : day4
+Mini: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Mini
+.PHONY : Mini
 
 # fast build rule for target.
-day4/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/day4.dir/build.make CMakeFiles/day4.dir/build
-.PHONY : day4/fast
+Mini/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mini.dir/build.make CMakeFiles/Mini.dir/build
+.PHONY : Mini/fast
 
-day4_practice.o: day4_practice.cpp.o
-.PHONY : day4_practice.o
+Mini_project.o: Mini_project.cpp.o
+.PHONY : Mini_project.o
 
 # target to build an object file
-day4_practice.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/day4.dir/build.make CMakeFiles/day4.dir/day4_practice.cpp.o
-.PHONY : day4_practice.cpp.o
+Mini_project.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mini.dir/build.make CMakeFiles/Mini.dir/Mini_project.cpp.o
+.PHONY : Mini_project.cpp.o
 
-day4_practice.i: day4_practice.cpp.i
-.PHONY : day4_practice.i
+Mini_project.i: Mini_project.cpp.i
+.PHONY : Mini_project.i
 
 # target to preprocess a source file
-day4_practice.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/day4.dir/build.make CMakeFiles/day4.dir/day4_practice.cpp.i
-.PHONY : day4_practice.cpp.i
+Mini_project.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mini.dir/build.make CMakeFiles/Mini.dir/Mini_project.cpp.i
+.PHONY : Mini_project.cpp.i
 
-day4_practice.s: day4_practice.cpp.s
-.PHONY : day4_practice.s
+Mini_project.s: Mini_project.cpp.s
+.PHONY : Mini_project.s
 
 # target to generate assembly for a file
-day4_practice.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/day4.dir/build.make CMakeFiles/day4.dir/day4_practice.cpp.s
-.PHONY : day4_practice.cpp.s
+Mini_project.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mini.dir/build.make CMakeFiles/Mini.dir/Mini_project.cpp.s
+.PHONY : Mini_project.cpp.s
 
 # Help Target
 help:
@@ -161,10 +161,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... day4"
-	@echo "... day4_practice.o"
-	@echo "... day4_practice.i"
-	@echo "... day4_practice.s"
+	@echo "... Mini"
+	@echo "... Mini_project.o"
+	@echo "... Mini_project.i"
+	@echo "... Mini_project.s"
 .PHONY : help
 
 
