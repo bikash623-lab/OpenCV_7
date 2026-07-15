@@ -77,7 +77,11 @@ int main(){
 
 
         // draw label
-        cv::putText(result,"Object" + std::to_string(objCount), cv::Point(box.x, box.y - 10), cv::FONT_HERSHEY_SIMPLEX, 0.5, cv::Scalar(0, 0, 255), 1);
+        cv::putText(result,
+            "Object" + std::to_string(objCount), 
+            cv::Point(box.x, box.y - 10), 
+            cv::FONT_HERSHEY_SIMPLEX, 0.5, 
+            cv::Scalar(0, 0, 255), 1);
     }
 
     cv::imshow("Original", img);

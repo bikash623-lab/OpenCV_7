@@ -19,3 +19,6 @@ include_directories(${OpenCV_INCLUDE_DIRS})
 # target_link_libraries(day4 ${OpenCV_LIBS})
 add_executable(Mini Mini_project.cpp)
 target_link_libraries(Mini ${OpenCV_LIBS})
+
+add_executable(day5 day5_video.cpp)
+target_link_libraries(Mini ${OpenCV_LIBS})
