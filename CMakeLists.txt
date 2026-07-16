@@ -21,4 +21,4 @@ add_executable(Mini Mini_project.cpp)
 target_link_libraries(Mini ${OpenCV_LIBS})
 
 add_executable(day5 day5_video.cpp)
-target_link_libraries(Mini ${OpenCV_LIBS})
+target_link_libraries(day5 ${OpenCV_LIBS})

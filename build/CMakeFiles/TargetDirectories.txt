@@ -1,3 +1,4 @@
 /Users/bikash_malla/Documents/opencv_learning/build/CMakeFiles/Mini.dir
+/Users/bikash_malla/Documents/opencv_learning/build/CMakeFiles/day5.dir
 /Users/bikash_malla/Documents/opencv_learning/build/CMakeFiles/edit_cache.dir
 /Users/bikash_malla/Documents/opencv_learning/build/CMakeFiles/rebuild_cache.dir
