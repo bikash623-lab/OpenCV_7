@@ -1,5 +1,5 @@
-CMakeFiles/Mini.dir/Mini_project.cpp.o: \
-  /Users/bikash_malla/Documents/opencv_learning/Mini_project.cpp \
+CMakeFiles/practice.dir/practice_opencv.cpp.o: \
+  /Users/bikash_malla/Documents/opencv_learning/practice_opencv.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \

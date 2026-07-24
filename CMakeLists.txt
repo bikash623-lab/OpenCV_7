@@ -17,8 +17,20 @@ include_directories(${OpenCV_INCLUDE_DIRS})
 
 # add_executable(day4 day4_practice.cpp)
 # target_link_libraries(day4 ${OpenCV_LIBS})
-add_executable(Mini Mini_project.cpp)
-target_link_libraries(Mini ${OpenCV_LIBS})
+# add_executable(Mini Mini_project.cpp)
+# target_link_libraries(Mini ${OpenCV_LIBS})
 
-add_executable(day5 day5_video.cpp)
-target_link_libraries(day5 ${OpenCV_LIBS})
+# add_executable(day5 day5_video.cpp)
+# target_link_libraries(day5 ${OpenCV_LIBS})
+
+# new ONNX executable
+# add_executable(day6_onnx day6_onnx_intro.cpp)
+# target_link_libraries(day6_onnx
+#     ${OpenCV_LIBS}
+#     ${ONNXRUNTIME_ROOT}/lib/libonnxruntime.dylib)
+
+# add_executable(practice practice_opencv.cpp)
+# target_link_libraries(practice ${OpenCV_LIBS})
+
+add_executable(project project_detector.cpp)
+target_link_libraries(project ${OpenCV_LIBS})

@@ -1,5 +1,5 @@
-CMakeFiles/day5.dir/day5_video.cpp.o: \
-  /Users/bikash_malla/Documents/opencv_learning/day5_video.cpp \
+CMakeFiles/project.dir/project_detector.cpp.o: \
+  /Users/bikash_malla/Documents/opencv_learning/project_detector.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
@@ -812,9 +812,6 @@ CMakeFiles/day5.dir/day5_video.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/stack.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/print \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/file_clock.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/forward_list \
   /opt/homebrew/Cellar/opencv/4.13.0_15/include/opencv4/opencv2/opencv.hpp \
   /opt/homebrew/Cellar/opencv/4.13.0_15/include/opencv4/opencv2/opencv_modules.hpp \
   /opt/homebrew/Cellar/opencv/4.13.0_15/include/opencv4/opencv2/core.hpp \
@@ -870,6 +867,9 @@ CMakeFiles/day5.dir/day5_video.cpp.o: \
   /opt/homebrew/Cellar/opencv/4.13.0_15/include/opencv4/opencv2/dnn.hpp \
   /opt/homebrew/Cellar/opencv/4.13.0_15/include/opencv4/opencv2/dnn/dnn.hpp \
   /opt/homebrew/Cellar/opencv/4.13.0_15/include/opencv4/opencv2/core/async.hpp \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/file_clock.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/forward_list \
   /opt/homebrew/Cellar/opencv/4.13.0_15/include/opencv4/opencv2/dnn/../dnn/version.hpp \
   /opt/homebrew/Cellar/opencv/4.13.0_15/include/opencv4/opencv2/dnn/dict.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/map \

@@ -117,78 +117,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Mini
+# Target rules for targets named project
 
 # Build rule for target.
-Mini: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Mini
-.PHONY : Mini
+project: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 project
+.PHONY : project
 
 # fast build rule for target.
-Mini/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mini.dir/build.make CMakeFiles/Mini.dir/build
-.PHONY : Mini/fast
+project/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/build
+.PHONY : project/fast
 
-#=============================================================================
-# Target rules for targets named day5
-
-# Build rule for target.
-day5: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 day5
-.PHONY : day5
-
-# fast build rule for target.
-day5/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/day5.dir/build.make CMakeFiles/day5.dir/build
-.PHONY : day5/fast
-
-Mini_project.o: Mini_project.cpp.o
-.PHONY : Mini_project.o
+project_detector.o: project_detector.cpp.o
+.PHONY : project_detector.o
 
 # target to build an object file
-Mini_project.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mini.dir/build.make CMakeFiles/Mini.dir/Mini_project.cpp.o
-.PHONY : Mini_project.cpp.o
+project_detector.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/project_detector.cpp.o
+.PHONY : project_detector.cpp.o
 
-Mini_project.i: Mini_project.cpp.i
-.PHONY : Mini_project.i
-
-# target to preprocess a source file
-Mini_project.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mini.dir/build.make CMakeFiles/Mini.dir/Mini_project.cpp.i
-.PHONY : Mini_project.cpp.i
-
-Mini_project.s: Mini_project.cpp.s
-.PHONY : Mini_project.s
-
-# target to generate assembly for a file
-Mini_project.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mini.dir/build.make CMakeFiles/Mini.dir/Mini_project.cpp.s
-.PHONY : Mini_project.cpp.s
-
-day5_video.o: day5_video.cpp.o
-.PHONY : day5_video.o
-
-# target to build an object file
-day5_video.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/day5.dir/build.make CMakeFiles/day5.dir/day5_video.cpp.o
-.PHONY : day5_video.cpp.o
-
-day5_video.i: day5_video.cpp.i
-.PHONY : day5_video.i
+project_detector.i: project_detector.cpp.i
+.PHONY : project_detector.i
 
 # target to preprocess a source file
-day5_video.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/day5.dir/build.make CMakeFiles/day5.dir/day5_video.cpp.i
-.PHONY : day5_video.cpp.i
+project_detector.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/project_detector.cpp.i
+.PHONY : project_detector.cpp.i
 
-day5_video.s: day5_video.cpp.s
-.PHONY : day5_video.s
+project_detector.s: project_detector.cpp.s
+.PHONY : project_detector.s
 
 # target to generate assembly for a file
-day5_video.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/day5.dir/build.make CMakeFiles/day5.dir/day5_video.cpp.s
-.PHONY : day5_video.cpp.s
+project_detector.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/project_detector.cpp.s
+.PHONY : project_detector.cpp.s
 
 # Help Target
 help:
@@ -198,14 +161,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... Mini"
-	@echo "... day5"
-	@echo "... Mini_project.o"
-	@echo "... Mini_project.i"
-	@echo "... Mini_project.s"
-	@echo "... day5_video.o"
-	@echo "... day5_video.i"
-	@echo "... day5_video.s"
+	@echo "... project"
+	@echo "... project_detector.o"
+	@echo "... project_detector.i"
+	@echo "... project_detector.s"
 .PHONY : help
 
 

@@ -1,4 +1,5 @@
 #include <iostream>
+#include <chrono> // for timing
 #include <opencv2/opencv.hpp>
 
 int main(){
@@ -19,10 +20,16 @@ int main(){
     std::cout<<"Height"<<cap.get(cv::CAP_PROP_FRAME_HEIGHT)<<"\n";
     std::cout<<"FPS"<<cap.get(cv::CAP_PROP_FPS) <<"\n";
 
+    auto prevTime = std::chrono::steady_clock::now();
     cv::Mat frame;
     while(true){
         cap >> frame; //grab frame
         if(frame.empty()) break; // end of stream
+
+        // calculate FPS
+        auto currTime = std::chrono::steady_clock::now();
+        double fps = 1.0 / std::chrono::duration<double>(currTime-prevTime).count();
+        prevTime = currTime;
         //Process each frame
         cv::Mat gray;
         cv::cvtColor(frame, gray, cv::COLOR_BGR2GRAY);
@@ -34,6 +41,15 @@ int main(){
         cv::Canny(frame, edges, 50, 150);
         cv::Mat thresh;
         cv:threshold(gray, thresh, 127, 255, cv::THRESH_BINARY);
+
+        // draw FPS on frame
+        cv::putText(frame,
+            "FPS: " + std::to_string((int)fps),
+            cv::Point(20, 40),
+            cv::FONT_HERSHEY_SIMPLEX,
+            1.0,
+            cv::Scalar(0, 255, 0),
+            2);
 
         cv::imshow("Original", frame);
         cv::imshow("Edges", edges);
